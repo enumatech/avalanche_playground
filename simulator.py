@@ -1,4 +1,4 @@
-from avalanche import Node, Transaction, run_nodes
+from avalanche import Node, Transaction
 from renderer import Renderer, NodeRenderer
 import copy
 import random

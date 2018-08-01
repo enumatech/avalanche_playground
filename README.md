@@ -8,7 +8,15 @@ I thought it'd be nice to add a visual to aide in exploration.  Uses `curses` an
 
 # Usage
 
+Make sure you have `nix` and `direnv`
+
 ```
+direnv allow
+python simulator.py
+```
+or without `direnv`
+```
+nix-shell
 python simulator.py
 ```
 
